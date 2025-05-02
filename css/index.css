@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Glitch&display=swap');
+
+
+.container-xl-fluid .navbar .collapse .u1 .l1 {
+
+    width: 100px;
+    margin-left: 30px;
+    text-align: center;
+
+}
+
+.container-xl-fluid .navbar .collapse .u1 .l1:hover{
+
+    border-bottom: 2px solid red;
+    
+}
+
+.container-xl-fluid .navbar .collapse .u1{
+
+    margin: 0 auto;
+}
+
+.navback{
+
+    background: black;
+   
+}
+
+.container-xl-fluid .navbar .collapse .u1 .l1 .a1{
+
+    color: white;
+    
+    
+}
+
+.container-xl-fluid .navbar .collapse .u1 .l1 .a1:hover{
+
+    color: red;
+    font-size: 17px;
+    transform: scale(1.09);
+	transition: all .3s;
+}
+
+.line{
+
+    background-color: red;
+    height: 5px;
+}
+
+.back{
+
+    background-image: url("bimg/back2.jpg");
+    background-size: cover;
+    height: 636px;
+}
+
+.cube{
+
+    width: 100%;
+    height: 550px;
+    display: flex;
+    gap: 10px;
+    margin-top: 45px;
+
+}
+
+.box1{
+
+    background-image: url("bimg/box2.jpg");
+    background-size: cover;
+}
+
+.box2{
+
+    background-image: url("bimg/box1.webp");
+    background-size: cover;
+}
+
+.box3{
+
+    background-image: url("bimg/box3.jpeg");
+    background-size: cover;
+}
+
+.box4{
+ 
+    background-image: url("bimg/box4.jpeg");
+    background-size: cover;
+
+}
+
+.box5{
+ 
+    background-image: url("bimg/box5.jpg");
+    background-size: cover;
+
+}
+
+.cube .box{
+
+    width: 20%;
+    height:100% ;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease 0.5s;
+    overflow: hidden;
+
+}
+
+.cube .box:hover{
+
+    width: 100%;
+}
+
+.container-fluid .row .col-lg-12 .cube .box .det .p1{
+
+    font-size: 50px;
+    /* font-weight: bold; */
+    color: white;
+    font-family: anton;
+}
+
+.container-fluid .row .col-lg-12 .cube .box .det .p1 span{
+
+    font-size: 50px;
+    /* font-weight: bold; */
+    color: #fe0000;
+}.container-fluid .row .col-lg-12 .cube .box .det{
+
+    margin-top: 370PX;
+    margin-left: 10px;
+    
+}
+
+.container-fluid .row .col-lg-12 .cube .box .det .p2{
+
+    color: #fe0000;
+    font-size: 20PX;
+    font-weight: bold;
+}
+
+.container-fluid .row .col-lg-2 .line{
+
+    margin-top: 5px;
+}
+
+.container-fluid .row .col-lg-2 .rate{
+
+
+    margin-top: 5px;
+}
+
+.container-fluid .row .col-lg-2 .rate p{
+
+    text-align: center;
+    font-size: 30px;
+    font-family:sans-serif ;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* 3d card */
+
+.parent {
+    width: 320px;
+    padding: 20px;
+    perspective: 1000px;
+    margin-top: 45px;
+    margin-left: 20px;
+  }
+  
+  .card {
+    border: 0px solid black;
+    transform-style: preserve-3d;
+    background-size: 60px 60px;
+    background-position: 0 0, 0 0;
+   
+    width: 100%;
+    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card:hover {
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 20deg);
+
+  }
+  
+  .content-box {
+    background-image: url("bimg/c1.jpeg");
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+    padding: 60px 25px 25px 25px;
+    transform-style: preserve-3d;
+    border: 2px solid red;
+    height: 270px;
+  }
+
+  .content-box:hover{
+    background-image: url("bimg/c1_1.jpg");
+    background-size: cover;
+
+  }
+  
+  .content-box .card-title {
+    display: inline-block;
+    color: #ffb703;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .content-box .card-title:hover {
+    transform: translate3d(0px, 0px, 60px);
+    color: red;
+  }
+  
+  .content-box .card-content {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 30px);
+  }
+  
+  .content-box .card-content:hover {
+    transform: translate3d(0px, 0px, 60px);
+    color: red;
+  }
+  
+  .content-box .see-more {
+    cursor: pointer;
+    margin-top: 3rem;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 9px;
+    text-transform: uppercase;
+    color:red;
+    background: white;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid red;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .content-box .see-more:hover {
+    transform: translate3d(0px, 0px, 60px);
+    color:white;
+    background: red;
+  }
+  
+  .date-box {
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background-image: url("bimg/p1.jpg");
+    background-size: cover;
+    border: 1px solid red;
+    padding: 10px;
+    transform: translate3d(0px, 0px, 80px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+  }
+  
+  .date-box span {
+    display: block;
+    text-align: center;
+  }
+  
+  .date-box .month {
+    color: rgb(4, 193, 250);
+    font-size: 9px;
+    font-weight: 700;
+  }
+  
+  .date-box .date {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(4, 193, 250);
+  }
+   
+
+  .parent-1 {
+    width: 320px;
+    padding: 20px;
+    perspective: 1000px;
+    margin-top: 55px;
+    margin-left: 20px;
+  }
+  
+  .card-1 {
+    border: 0px solid black;
+    transform-style: preserve-3d;
+    background-size: 60px 60px;
+    background-position: 0 0, 0 0;
+   
+    width: 100%;
+    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card-1:hover {
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 20deg);
+
+  }
+  
+  .content-box-1 {
+    background-image: url("bimg/c2.jpg");
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+    padding: 60px 25px 25px 25px;
+    transform-style: preserve-3d;
+    border: 2px solid red;
+    height: 260px;
+  }
+
+  .content-box-1:hover{
+    background-image: url("bimg/c2_2.jpg");
+    background-size: cover;
+
+  }
+  
+  .content-box-1 .card-title-1 {
+    display: inline-block;
+    color: #ffb703;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .content-box-1 .card-title-1:hover {
+    transform: translate3d(0px, 0px, 60px);
+    color: red;
+  }
+  
+  .content-box-1 .card-content-1 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 30px);
+  }
+  
+  .content-box-1 .card-content-1:hover {
+    transform: translate3d(0px, 0px, 60px);
+    color: red;
+  }
+  
+  .content-box-1 .see-more-1 {
+    cursor: pointer;
+    margin-top: 3rem;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 9px;
+    text-transform: uppercase;
+    color:red;
+    background: white;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid red;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .content-box-1 .see-more-1:hover {
+    transform: translate3d(0px, 0px, 60px);
+    color:white;
+    background: red;
+  }
+  
+  .date-box-1 {
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background-image: url("bimg/p2.jpg");
+    background-size: cover;
+    border: 1px solid red;
+    padding: 10px;
+    transform: translate3d(0px, 0px, 80px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+  }
+  
+  .date-box-1 span {
+    display: block;
+    text-align: center;
+  }
+  
+  .date-box-1 .month {
+    color: rgb(4, 193, 250);
+    font-size: 9px;
+    font-weight: 700;
+  }
+  
+  .date-box-1 .date {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(4, 193, 250);
+  }
+
+
+
+
+  .parent-2 {
+    width: 320px;
+    padding: 20px;
+    perspective: 1000px;
+    margin-top: 55px;
+    margin-left: 20px;
+  }
+  
+  .card-2 {
+    border: 0px solid black;
+    transform-style: preserve-3d;
+    background-size: 60px 60px;
+    background-position: 0 0, 0 0;
+   
+    width: 100%;
+    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card-2:hover {
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 20deg);
+
+  }
+  
+  .content-box-2 {
+    background-image: url("bimg/c3.jpg");
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+    padding: 60px 25px 25px 25px;
+    transform-style: preserve-3d;
+    border: 2px solid red;
+    height: 260px;
+  }
+
+  .content-box-2:hover{
+    background-image: url("bimg/c3_3.jpg");
+    background-size: cover;
+
+  }
+  
+  .content-box-2 .card-title-2 {
+    display: inline-block;
+    color: #ffb703;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .content-box-2 .card-title-2:hover {
+    transform: translate3d(0px, 0px, 60px);
+    color: red;
+  }
+  
+  .content-box-2 .card-content-2 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 30px);
+  }
+  
+  .content-box-2 .card-content-2:hover {
+    transform: translate3d(0px, 0px, 60px);
+    color: red;
+  }
+  
+  .content-box-2 .see-more-2 {
+    cursor: pointer;
+    margin-top: 3rem;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 9px;
+    text-transform: uppercase;
+    color:red;
+    background: white;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid red;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .content-box-2 .see-more-2:hover {
+    transform: translate3d(0px, 0px, 60px);
+    color:white;
+    background: red;
+  }
+  
+  .date-box-2 {
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background-image: url("bimg/p3.jpg");
+    background-size: cover;
+    border: 1px solid red;
+    padding: 10px;
+    transform: translate3d(0px, 0px, 80px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+  }
+  
+  .date-box-2 span {
+    display: block;
+    text-align: center;
+  }
+  
+  .date-box-2 .month {
+    color: rgb(4, 193, 250);
+    font-size: 9px;
+    font-weight: 700;
+  }
+  
+  .date-box-2 .date {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(4, 193, 250);
+  }
+
+
+  .parent-3 {
+    width: 320px;
+    padding: 20px;
+    perspective: 1000px;
+    margin-top: 55px;
+    margin-left: 20px;
+  }
+  
+  .card-3 {
+    border: 0px solid black;
+    transform-style: preserve-3d;
+    background-size: 60px 60px;
+    background-position: 0 0, 0 0;
+   
+    width: 100%;
+    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card-3:hover {
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 20deg);
+
+  }
+  
+  .content-box-3 {
+    background-image: url("bimg/c4.jpg");
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+    padding: 60px 25px 25px 25px;
+    transform-style: preserve-3d;
+    border: 2px solid red;
+    height: 260px;
+  }
+
+  .content-box-3:hover{
+    background-image: url("bimg/c4_4.jpg");
+    background-size: cover;
+
+  }
+  
+  .content-box-3 .card-title-3 {
+    display: inline-block;
+    color: #ffb703;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .content-box-3 .card-title-3:hover {
+    transform: translate3d(0px, 0px, 60px);
+    color: red;
+  }
+  
+  .content-box-3 .card-content-3 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 30px);
+  }
+  
+  .content-box-3 .card-content-3:hover {
+    transform: translate3d(0px, 0px, 60px);
+    color: red;
+  }
+  
+  .content-box-3 .see-more-3 {
+    cursor: pointer;
+    margin-top: 3rem;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 9px;
+    text-transform: uppercase;
+    color:red;
+    background: white;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid red;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .content-box-3 .see-more-3:hover {
+    transform: translate3d(0px, 0px, 60px);
+    color:white;
+    background: red;
+  }
+  
+  .date-box-3 {
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background-image: url("bimg/p3.jpg");
+    background-size: cover;
+    border: 1px solid red;
+    padding: 10px;
+    transform: translate3d(0px, 0px, 80px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+  }
+  
+  .date-box-3 span {
+    display: block;
+    text-align: center;
+  }
+  
+  .date-box-3 .month {
+    color: rgb(4, 193, 250);
+    font-size: 9px;
+    font-weight: 700;
+  }
+  
+  .date-box-3 .date {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(4, 193, 250);
+  }
+
+
+
+
+
+  
